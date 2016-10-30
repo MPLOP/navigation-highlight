@@ -1,6 +1,5 @@
 html {
   font: Georgia;
-  margin: 0 0 .2em .3em
 }
 
 h1 {
@@ -8,11 +7,13 @@ h1 {
   font-size: 3rem;
   text-align: center;
   color: #b20953;
+  padding: 0 0 .4em;
 }
 
 header {
   background-color: #ffe500;
   padding: 0 0 .4em;
+  margin: 0 0 .2em;
 }
 
 h2 {
@@ -38,7 +39,7 @@ p {
 }
 
 .nav {
-  margin: 0;
+  margin: .2em .5em .3em;
   list-style-type: none;
   text-align: center;
   }
@@ -50,10 +51,10 @@ p {
 .nav a {
   color: white;
   display: inline-block;
-  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  padding: .2em .5em .3em;
 }
 
 .nav a:hover {
@@ -69,5 +70,6 @@ footer {
   text-align: center;
   color: #2f2d13;
   padding: 10px;
-  font-size: .75rem
+  font-size: .75rem;
+  margin: .3em;
 }

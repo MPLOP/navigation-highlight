@@ -1,9 +1,12 @@
 html {
   font: Georgia;
+  box-sizing: border-box;
 }
 
+*, *::before, *
+
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   text-align: center;
   color: #b20953;
@@ -17,7 +20,7 @@ header {
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   color: #b20953;
   text-align: justify;
@@ -42,7 +45,7 @@ p {
   margin: .2em .5em .3em;
   list-style-type: none;
   text-align: center;
-  }
+}
 
 .nav li {
   display: inline-block;
@@ -58,7 +61,7 @@ p {
 }
 
 .nav a:hover {
-  background-color: #cc1465
+  background-color: #cc1465;
 }
 
 .nav .current {
